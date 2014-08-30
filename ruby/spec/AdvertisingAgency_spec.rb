@@ -1,11 +1,12 @@
-require_relative "../app/%s" % [File.basename(__FILE__, "_spec.rb")]
+name = File.basename(__FILE__, "_spec.rb")
+require_relative "../app/%s" % [name]
 
 path = __FILE__.sub(/\.rb$/, ".json")
 $DATA = JSON.parse(File.read(path))
 
-describe AdvertisingAgency do
+describe name do
   after(:each) do
-    results = AdvertisingAgency.numberOfRejections(@requests)
+    results = Object.const_get(name).numberOfRejections(@requests)
     expect(results).to eq(@expected)
   end
 

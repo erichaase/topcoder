@@ -5,7 +5,8 @@ guard :rspec, cmd: 'bundle exec rspec' do
 end
 
 notification :tmux,
+  change_color:           true,
+  color_location:         'status-left-fg',
   display_message:        true,
   default_message_format: '%s: %s',
-  default_message_color:  'brightblack',
-  change_color:           false
+  default_message_color:  'brightblack'

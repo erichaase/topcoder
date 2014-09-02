@@ -3,7 +3,7 @@
 class DayTrader
   NMIN = 390
 
-  def self.earnings (timeA, priceA, timeB, priceB)
+  def self.solution (timeA, priceA, timeB, priceB)
     pa = Array.new(NMIN + 1, nil)
     pb = Array.new(NMIN + 1, nil)
     0.upto(NMIN) do |t|

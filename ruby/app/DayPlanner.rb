@@ -1,7 +1,7 @@
 # DayPlanner[http://community.topcoder.com/stat?c=problem_statement&pm=4637]
 
 class DayPlanner
-  def self.getEnds (tasks)
+  def self.solution (tasks)
     tasks.collect! do |task|
       time, task   = task.split
       hour, minute = time.split(":").collect { |t| t.to_i }

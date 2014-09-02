@@ -1,7 +1,7 @@
 # BalancedTrees[http://community.topcoder.com/stat?c=problem_statement&pm=1315]
 
 class BalancedTrees
-  def self.maxHeight (k, n)
+  def self.solution (k, n)
     head = Node.new(k)
     (n-1).times { head.addNode }
     return head.height

@@ -1,7 +1,7 @@
 # AustrianLotto[http://community.topcoder.com/stat?c=problem_statement&pm=1934]
 
 class AustrianLotto
-  def self.evaluate (drawing, picks)
+  def self.solution (drawing, picks)
     drawing = drawing.split.collect { |d| d.to_i}
     picks   = picks.collect { |p| p.split.collect { |q| q.to_i } }
 

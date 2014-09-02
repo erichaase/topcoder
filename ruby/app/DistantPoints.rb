@@ -1,7 +1,7 @@
 # DistantPoints[http://community.topcoder.com/stat?c=problem_statement&pm=11077]
 
 class DistantPoints
-  def self.getKth (n, k)
+  def self.solution (n, k)
     @max = 2 ** n + 2
 
     points = {}

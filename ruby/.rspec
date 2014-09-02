@@ -1,4 +1,3 @@
 --color
 --format progress
---require json
---require pp
+--require spec_helper

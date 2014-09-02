@@ -1,7 +1,7 @@
 # AdvertisingAgency[http://community.topcoder.com/stat?c=problem_statement&pm=7558]
 
 class AdvertisingAgency
-  def self.numberOfRejections (requests)
+  def self.solution (requests)
     bb       = {}
     nRejects = 0
 

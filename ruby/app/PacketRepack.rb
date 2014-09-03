@@ -1,3 +1,5 @@
+# PacketRepack[http://community.topcoder.com/stat?c=problem_statement&pm=7642]
+
 class PacketRepack
   def self.solution (input, b, num_fields, field_size)
     bin = []

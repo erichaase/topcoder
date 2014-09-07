@@ -1,3 +1,5 @@
+# RecipeFraction[http://community.topcoder.com/stat?c=problem_statement&pm=4638]
+
 class RecipeFraction
   def self.solution (recipe, ingredients)
     rh     = {}

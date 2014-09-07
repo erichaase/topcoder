@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - "2.0.0"
+install:
+  - cd ruby
+  - bundle install
+script: 
+  - cd ruby
+  - bundle exec rake

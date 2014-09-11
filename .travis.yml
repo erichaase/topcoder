@@ -3,3 +3,6 @@ rvm:
   - "2.0.0"
 before_install:
   - cd ruby
+notifications:
+  email:
+    on_success: [always]

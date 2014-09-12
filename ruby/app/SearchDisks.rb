@@ -1,3 +1,5 @@
+# SearchDisks[http://community.topcoder.com/stat?c=problem_statement&pm=7525]
+
 class SearchDisks
   def self.solution (diskNames, searchingDisk)
     n = 0

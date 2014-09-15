@@ -5,6 +5,4 @@ before_install:
   - cd ruby
 notifications:
   email:
-    recipients:
-      - erichaase@gmail.com
-    on_success: [always]
+    on_success: always

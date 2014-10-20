@@ -10,9 +10,11 @@ import org.json.simple.*;
 import org.json.simple.parser.ParseException;
 
 public class HuffmanDecodingTest {
+    private static final String TEST_DATA_PATH = "/HuffmanDecodingTest.json";
+
     @Test
     public void test() throws IOException, ParseException {
-        File   f = new File(this.getClass().getResource("/HuffmanDecodingTest.json").getFile());
+        File   f = new File(this.getClass().getResource(TEST_DATA_PATH).getFile());
         String s = FileUtils.readFileToString(f, "UTF-8");
 
         for (Object testcase : (JSONArray) JSONValue.parse(s)) {

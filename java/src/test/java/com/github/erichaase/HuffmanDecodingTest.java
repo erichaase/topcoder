@@ -21,7 +21,7 @@ public class HuffmanDecodingTest {
             JSONArray args     = (JSONArray) testcase;
             Object    expected = args.remove(args.size() - 1);
 
-            Object result = HuffmanDecoding.decode(args);
+            Object result = HuffmanDecoding.solution(args);
             assertEquals(expected, result);
         }
     }

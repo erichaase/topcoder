@@ -21,7 +21,7 @@ public class ComplementaryDNAChainsTest {
             JSONArray args     = (JSONArray) testcase;
             Object    expected = args.remove(args.size() - 1);
 
-            Object result = ComplementaryDNAChains.minReplaces(args);
+            Object result = ComplementaryDNAChains.solution(args);
             assertEquals(expected, result);
         }
     }

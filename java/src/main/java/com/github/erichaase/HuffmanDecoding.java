@@ -8,7 +8,7 @@ import java.util.*;
 import org.json.simple.*;
 
 public class HuffmanDecoding {
-    public static Object decode (JSONArray args) {
+    public static Object solution (JSONArray args) {
         // input / output
         String    encodedIn = (String)    args.get(0);
         JSONArray dictIn    = (JSONArray) args.get(1);

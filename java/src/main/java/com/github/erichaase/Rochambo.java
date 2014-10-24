@@ -7,7 +7,7 @@ package com.github.erichaase;
 import java.util.*;
 import org.json.simple.*;
 
-public class Rochambo {
+public class Rochambo implements TopCoderProblem {
     private static final Map<Character, Character> beats;
     static {
         beats = new HashMap<Character, Character>();
@@ -30,7 +30,7 @@ public class Rochambo {
         next.put("PR", 'S');
     }
 
-    public static Object solution (JSONArray args) {
+    public Object solution (JSONArray args) {
         // input / output
         String opponent = (String) args.get(0);
         long   n        = 0;

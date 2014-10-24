@@ -7,8 +7,8 @@ package com.github.erichaase;
 import java.util.*;
 import org.json.simple.*;
 
-public class ComplementaryDNAChains {
-    public static Object solution (JSONArray args) {
+public class ComplementaryDNAChains implements TopCoderProblem {
+    public Object solution (JSONArray args) {
         // input / output
         String first  = (String) args.get(0);
         String second = (String) args.get(1);
